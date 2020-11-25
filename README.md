@@ -45,9 +45,17 @@ Commit your code regularly and meaningfully.
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Explain the difference between Relational Databases and SQL.
+A Relational Database is a type of database that stores data in tables while SQL is the language used to access/manipulate databases.
+
 2. Why do tables need a Primary Key?
+We need a Primary Key to keep the data normalized. One of the principals of normalizations requires that a table should have a primary key. The PK aids in keeping data less redundant and allows us to reference each row individually.
+
 3. What is the name given to a table column that references the Primary Key on another table?
+This table column is called a Foreign Key.
+
 4. What do we need in order to have a _many to many_ relationship between two tables?
+We would need a intermediary table to connect the two. Its columns would store foreign keys that reference the primary keys of the two tables.
+
 
 ## Instructions
 
@@ -56,8 +64,8 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 - [x] Create a forked copy of this project.
 - [x] Clone your OWN version of the repository. (Not Lambda's by mistake!)
 - [x] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [x] Implement the project on your newly created `<firstName-lastName>` branch.
+- [x] Push commits: git push origin `<firstName-lastName>`.
 
 ### Task 2: Project Requirements
 
